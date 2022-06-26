@@ -33,9 +33,9 @@ npm run start
 Open http://localhost:5000 with your favorite browser to see your project.
 
 ```shell
-├── jest.config.ts              # 
-├── nodemon.json                # 
-├── package.json                #
+├── jest.config.ts              # Jest config
+├── nodemon.json                # Server start
+├── package.json                # Packages install
 ├── README.md                   # README file
 ├── src
 │   ├── app.ts                  # Application
@@ -44,7 +44,7 @@ Open http://localhost:5000 with your favorite browser to see your project.
 │   ├── routes.ts               # Routes path url
 │   ├── __test_                 # Unit test
 │   └── utils                   # Utility functions
-└── tsconfig.json
+└── tsconfig.json               # Typescript config
 ```
 
 ### Contributions
