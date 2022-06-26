@@ -3,13 +3,13 @@ import { IndexController } from './controllers/IndexController'
 import { PingController } from './controllers/PingController'
 
 const _routes: [string, Router][] = [
-    ['/', IndexController],
-    ['/ping', PingController],
+  ['/', IndexController],
+  ['/ping', PingController]
 ]
 
 export const routes = (app: Application) => {
-    _routes.forEach((route) => {
-        const [url, controller] = route
-        app.use(url, controller)
-    })
+  _routes.forEach((route) => {
+    const [url, controller] = route
+    app.use(url, controller)
+  })
 }
